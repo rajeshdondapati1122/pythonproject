@@ -6,5 +6,5 @@ def test_add_numbers():
     assert add_numbers(-1, 1) == 0
     assert add_numbers(0, 0) == 0
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     pytest.main()
